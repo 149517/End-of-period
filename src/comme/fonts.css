@@ -1,0 +1,35 @@
+@font-face {
+    font-family: AAWEILAIHEI-2;
+    font-weight: bold;
+    src: url("./fonts/AAWEILAIHEI-2.TTF");
+}
+@font-face {
+    font-family: SOURCEHANSANSCN-EXTRALIGHT-2;
+    font-weight: bold;
+    src: url("./fonts/SOURCEHANSANSCN-EXTRALIGHT-2.OTF") format("opentype");
+}
+@font-face {
+    font-family: SOURCEHANSANSCN-LIGHT-2;
+    font-weight: bold;
+    src: url("./fonts/SOURCEHANSANSCN-LIGHT-2.OTF") format("opentype");
+}
+@font-face {
+    font-family: SOURCEHANSANSCN-MEDIUM-2;
+    font-weight: bold;
+    src: url("./fonts/SOURCEHANSANSCN-MEDIUM-2.OTF") format("opentype");
+}
+@font-face {
+    font-family: SourceHanSansCN;
+    font-weight: bold;
+    src: url("./fSOURCEHANSANSCN-REGULAR-2.OTF") format("opentype");
+}
+@font-face {
+    font-family: SOURCEHANSANSCN-VF-2;
+    font-weight: bold;
+    src: url("./fonts/SOURCEHANSANSCN-VF-2.OTF") format("opentype")
+}
+@font-face {
+    font-family: WenYue;
+    font-weight: bold;
+    src: url("./fonts/WENYUE-HOUXIANDAITI-W3-75-J-2.OTF") format("opentype");
+}

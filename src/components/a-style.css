@@ -1,0 +1,28 @@
+#box { height: 100%;
+}
+html,
+body {
+    position: relative;
+    height: 100%;
+}
+
+body {
+    background: #eee;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 1.52rem;
+    color: #000;
+    margin: 0;
+    padding: 0;
+}
+
+
+#box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    overflow: hidden;
+}
+
+
+
