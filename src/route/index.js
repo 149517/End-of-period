@@ -17,6 +17,14 @@ import poetry from "../components/home-s/poetry.vue";
 import health from "../components/home-s/health.vue";
 
 import Login from "../components/Login.vue"
+import First from "../components/home-s/hea-s/First.vue";
+import Second from "../components/home-s/hea-s/Second.vue";
+import PorS from "../components/home-s/hea-s/Por-s.vue";
+import Lichu from "../components/season-s/li/Lichu.vue";
+import Lixia from "../components/season-s/li/Lixia.vue";
+import Liqiu from "../components/season-s/li/Liqiu.vue";
+import Lidong from "../components/season-s/li/Lidong.vue";
+import Chu from "../components/Chu.vue";
 
 
 // 创建路由实例对象
@@ -37,8 +45,20 @@ const routes = [
 
     {path:'/tradition',component: tradition},
     {path:"/custom",component: custom},
-    {path:'/poetry',component: poetry},
-    {path:'/health',component: health}
+    {path:'/poetry',component: poetry,
+
+    },
+    {path:'/health',component: health},
+    {path: '/first',component: First},
+    {path:'/second',component: Second},
+
+    {path:'/por-s',component: PorS},
+
+    {path: '/lichu',component: Lichu},
+    {path: '/lixia',component: Lixia},
+    {path: '/liqiu',component: Liqiu},
+    {path: '/lidong',component: Lidong},
+    {path:'/chu',component: Chu}
 ]
 
 const router = createRouter({

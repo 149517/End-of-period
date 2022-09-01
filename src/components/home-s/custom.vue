@@ -63,6 +63,8 @@ export default {
   img {
     width: 8.5333rem;
     height: 6.4667rem;
+    display: block;
+    margin: 0 auto;
   }
 }
 
@@ -93,7 +95,8 @@ export default {
   img {
     width: 7.1467rem;
     height: 4.5733rem;
-    margin: .2667rem .6667rem;
+    margin: .2667rem auto;
+    display: block;
   }
 }
 </style>

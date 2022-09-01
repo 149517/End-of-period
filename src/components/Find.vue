@@ -63,10 +63,10 @@ export default {
         width: 1.8667rem;
         height: 1.9733rem;
         position: absolute;
-        bottom: .2rem;
+        bottom: .4rem;
         left: .6667rem;
         z-index: 3;
-        font-size: .5333rem;
+        font-size: .6rem;
         font-family: AAWEILAIHEI-2;
         font-weight: 400;
         text-align: left;

@@ -76,9 +76,10 @@ export default {
   }
 
   img {
+    display: block;
     width: 8.52rem;
     height: 5.16rem;
-    margin: .2rem .5333rem;
+    margin: .2rem auto;
   }
 }
 

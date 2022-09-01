@@ -1,11 +1,13 @@
 <template>
   <div class="box">
+    <router-link to="/lichu">
     <div class="white">
       <h3>立春</h3>
       <div class="text">
         立春，俗称“打春”。旧俗立春，既是一个古老的节气，也是一个重大的节日。天子要在立春日，亲率诸侯、大夫迎春于东郊，行布德施惠之令。民间艺人制作许多小泥牛，称为“春牛”。
       </div>
     </div>
+    </router-link>
     <div class="white">
       <h3>雨水</h3>
       <div class="text">
@@ -67,8 +69,10 @@ export default {
   border: transparent .2667rem solid;
   border-bottom-color: #9ee8b5;
 }
-
-.white {
+a{
+  text-decoration: none;
+}
+.white{
   width: 7.3333rem;
   height: 2rem;
   background-color: white;

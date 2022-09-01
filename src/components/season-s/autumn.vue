@@ -1,11 +1,13 @@
 <template>
   <div class="box">
+    <router-link to="/liqiu">
     <div class="white">
       <h3>立秋</h3>
       <div class="text">
         立秋，一般在公历8月7日或8日。秋的意思是暑去凉来，秋天开始。周代立秋日，天子亲率三公九卿诸侯大夫到西郊迎秋，举行祭祀仪式。汉代沿承此俗，并杀兽以祭，表示秋来扬武之意。民间则有在立秋时占卜天气凉热的风俗。
       </div>
     </div>
+    </router-link>
     <div class="white">
       <h3>处暑</h3>
       <div class="text">
@@ -69,7 +71,7 @@ export default {
   border: transparent .2667rem solid;
   border-bottom-color: #D0E6B7;
 }
-
+a{text-decoration: none}
 .white {
   width: 7.3333rem;
   height: 2rem;

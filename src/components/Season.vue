@@ -1,9 +1,10 @@
 <template>
   <Nav></Nav>
   <div class="box">
-    <div class="clock">
+<!--    <div class="clock">-->
+<!--      <Time></Time>-->
 
-</div>
+<!--</div>-->
 
 
 <div class="option">
@@ -18,10 +19,11 @@
 
 </template>
 <script>
-import nav from "../components/nav.vue";
+import nav from "./nav.vue";
+import Time from "./season-s/Time.vue"
 export default {
   components:{
-    'Nav':nav
+    'Nav':nav,Time
   }
 }
 
@@ -29,7 +31,8 @@ export default {
 
 <style scoped lang="less">
     .box{
-        padding-bottom: 2rem;
+      padding-top: .15rem;
+      padding-bottom: 2rem;
     }
 a {
     text-decoration: none;
@@ -39,7 +42,7 @@ a {
     margin: .1333rem auto;
     width: 8rem;
     height: 4rem;
-    background-color: aquamarine;
+    background-color: #c0c5c4;
 }
 
 .option {

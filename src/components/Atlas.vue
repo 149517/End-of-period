@@ -82,30 +82,33 @@ export default {
 }
 
 .swiper-slide:nth-child(4n) {
-  background-color: rgb(211, 122, 7);
+  background:url("../assets/atlas/大暑.png");
+  background-size: cover;
 }
 
 .swiper-slide:nth-child(5n) {
-  background-color: rgb(118, 163, 12);
+  background:url("../assets/atlas/寒露.png");
+  background-size: cover;
 }
 
 .swiper-slide:nth-child(6n) {
-  background-color: rgb(180, 10, 47);
+  background:url("../assets/atlas/大雪.png");
+  background-size: cover;
 }
 
 .swiper-slide:nth-child(7n) {
-  background-color: rgb(35, 99, 19);
+  background:url("../assets/atlas/小雪.png");
+  background-size: cover;
 }
 
 .swiper-slide:nth-child(8n) {
-  background-color: rgb(0, 68, 255);
+  background:url("../assets/atlas/谷雨.png");
+  background-size: cover;
 }
 
 .swiper-slide:nth-child(9n) {
-  background-color: rgb(218, 12, 218);
+  background:url("../assets/atlas/雨水.png");
+  background-size: cover;
 }
 
-.swiper-slide:nth-child(10n) {
-  background-color: rgb(54, 94, 77);
-}
 </style>

@@ -1,12 +1,14 @@
 <template>
 
   <div class="box">
+    <router-link to="/lixia">
     <div class="white">
       <h3>立夏</h3>
       <div class="text">
         立夏，旧时乡间用赤豆、黄豆、黑豆、青豆、绿豆等五色豆拌合白粳米煮成“五色饭”，后演变改为倭豆肉煮糯米饭，菜有苋菜黄鱼羹，称吃“立夏饭”。用红茶或胡桃壳煮蛋，称“立夏蛋”，相互馈送。
       </div>
     </div>
+    </router-link>
     <div class="white">
       <h3>小满</h3>
       <div class="text">
@@ -70,7 +72,9 @@ export default {
   border: transparent .2667rem solid;
   border-bottom-color: #50A087;
 }
-
+a{
+  text-decoration: none;
+}
 .white {
   width: 7.3333rem;
   height: 2rem;

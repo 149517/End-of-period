@@ -1,11 +1,13 @@
 <template>
   <div class="box">
+    <router-link to="/lidong">
     <div class="white big">
       <h3>立冬</h3>
       <div class="text">
         立冬，不仅仅代表着冬天的来临，完整地说，立冬是表示冬季开始，万物收藏，归避寒冷的意思。　立冬是十月的大节，汉魏时期，这天天子要亲率群臣迎接冬气，对为国捐躯的烈士及其家小进行表彰与抚恤，请死者保护生灵，鼓励民众抵御外故或饿寇的掠夺与侵袭。
       </div>
     </div>
+    </router-link>
     <div class="white">
       <h3>小雪</h3>
       <div class="text">
@@ -69,7 +71,7 @@ export default {
   border: transparent .2667rem solid;
   border-bottom-color: #8DA2CE;
 }
-
+a{text-decoration: none}
 .white {
   width: 7.3333rem;
   height: 2rem;
