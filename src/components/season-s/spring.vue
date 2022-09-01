@@ -48,7 +48,7 @@ export default {
 <style scoped lang="less">
 .box {
   width: 8.5333rem;
-  height: 15.6rem;
+  height: 14.3rem;
   background: #9ee8b5;
   border-radius: .1333rem;
   padding-top: .2667rem;

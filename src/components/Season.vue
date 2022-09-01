@@ -1,17 +1,20 @@
 <template>
   <Nav></Nav>
+  <div class="box">
     <div class="clock">
 
-    </div>
-    
+</div>
 
-    <div class="option">
-        <router-link class="op" to="/season">春</router-link>
-        <router-link class="op" to="/season/summer">夏</router-link>
-        <router-link class="op" to="/season/autumn">秋</router-link>
-        <router-link class="op" to="/season/winter">冬</router-link>
-    </div>
-    <router-view class="contain"></router-view>
+
+<div class="option">
+    <router-link class="op" to="/season">春</router-link>
+    <router-link class="op" to="/season/summer">夏</router-link>
+    <router-link class="op" to="/season/autumn">秋</router-link>
+    <router-link class="op" to="/season/winter">冬</router-link>
+</div>
+<router-view class="contain"></router-view>
+  </div>
+
 
 </template>
 <script>
@@ -25,6 +28,9 @@ export default {
 </script>
 
 <style scoped lang="less">
+    .box{
+        padding-bottom: 2rem;
+    }
 a {
     text-decoration: none;
 }

@@ -1,12 +1,12 @@
 <template>
   <Nav></Nav>
   <div class="box">
-<!--    <router-view></router-view>-->
+    <!--    <router-view></router-view>-->
     <div class="banner" v-if="hdis">
       <img class="banner" src="../assets/Home/春分 画框.png" alt="">
       <div class="option">
         <router-link class="op" @click="Displaychange" to="/tradition">传统文化</router-link>
-        <router-link class="op" @click="Displaychange" to="/custom">地方风俗</router-link>
+        <router-link class="op" @click="Displaychange" to="/custom">节气划分</router-link>
         <router-link class="op" @click="Displaychange" to="/poetry">诗文歌赋</router-link>
         <router-link class="op" @click="Displaychange" to="/health">时令养生</router-link>
       </div>
@@ -19,23 +19,23 @@
 import nav from "../components/nav.vue";
 export default {
   name: "Home",
-  components:{
-    'Nav':nav
+  components: {
+    'Nav': nav
   },
-  data(){
-    return{
-      hdis:true
+  data() {
+    return {
+      hdis: true
     }
   },
-  methods:{
-    Displaychange(){
-      this.hdis=false
+  methods: {
+    Displaychange() {
+      this.hdis = false
     }
   }
 }
 </script>
 <style scoped lang="less">
-a{
+a {
   text-decoration: none;
   font-size: .32rem;
   font-family: SourceHanSansCN, SourceHanSansCN-Regular;
@@ -45,9 +45,11 @@ a{
   line-height: 1rem;
   letter-spacing: .0267rem;
 }
-.box{
-  margin-bottom: 1.6rem;
+
+.box {
+  padding-bottom: 2rem;
 }
+
 .banner {
   display: flex;
   flex-wrap: wrap;
@@ -77,13 +79,16 @@ a{
 
       background-color: #8E5F54;
     }
-    .op:nth-child(2){
+
+    .op:nth-child(2) {
       background-color: #BFB6AD;
     }
-    .op:nth-child(3){
+
+    .op:nth-child(3) {
       background-color: #EDCF96;
     }
-    .op:nth-child(4){
+
+    .op:nth-child(4) {
       background-color: #D26161;
     }
   }

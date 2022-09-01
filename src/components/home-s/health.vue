@@ -10,11 +10,11 @@
     <swiper :slidesPerView="'auto'" :spaceBetween="30" :pagination="{
       clickable: true,
     }" :modules="modules" class="mySwiper">
-      <swiper-slide class="h-sw"><img src="../../assets/Home/guo.png"></swiper-slide>
-      <swiper-slide class="h-sw"><img src="../../assets/Home/guo.png"></swiper-slide>
-      <swiper-slide class="h-sw"><img src="../../assets/Home/guo.png"></swiper-slide>
-      <swiper-slide class="h-sw"><img src="../../assets/Home/guo.png"></swiper-slide>
-      <swiper-slide class="h-sw"><img src="../../assets/Home/guo.png"></swiper-slide>
+      <swiper-slide class="h-sw"><img src="../../assets/subnav/guo.png"></swiper-slide>
+      <swiper-slide class="h-sw"><img src="../../assets/subnav/guo.png"></swiper-slide>
+      <swiper-slide class="h-sw"><img src="../../assets/subnav/guo.png"></swiper-slide>
+      <swiper-slide class="h-sw"><img src="../../assets/subnav/guo.png"></swiper-slide>
+      <swiper-slide class="h-sw"><img src="../../assets/subnav/guo.png"></swiper-slide>
 
     </swiper>
   </div>
@@ -39,7 +39,7 @@
           这也意味着春天来了，但春天时长 乍寒乍暖，
           天气潮湿，容易感冒，那么，立春时养生该吃什么呢
         </div>
-        <img src="../../assets/Home/carrot.png" alt="">
+        <img src="../../assets/subnav/carrot.png" alt="">
       </span>
 
     </div>

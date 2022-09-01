@@ -45,7 +45,7 @@ export default {
 </script>
 <style scoped lang="less">
 .find {
-    margin-bottom: 1.6rem;
+    padding-bottom: 2rem;
 }
 
 .box {

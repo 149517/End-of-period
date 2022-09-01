@@ -68,14 +68,17 @@ export default {
 
 .swiper-slide:nth-child(1n) {
   background:url("../assets/atlas/大寒.png");
+  background-size: cover;
 }
 
 .swiper-slide:nth-child(2n) {
-  background:url("../assets/atlas/惊蛰.png")
+  background:url("../assets/atlas/惊蛰.png");
+  background-size: cover;
 }
 
 .swiper-slide:nth-child(3n) {
-  background:url("../assets/atlas/立春.png")
+  background:url("../assets/atlas/立春.png");
+  background-size: cover;
 }
 
 .swiper-slide:nth-child(4n) {
