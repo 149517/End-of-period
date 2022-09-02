@@ -81,8 +81,7 @@ export default {
       font-weight: bold;
     }
     font-size: .2667rem;
-    font-family: DengXian,
-    DengXian-Bold;
+    font-family: DengXian, DengXian-Bold;
     font-weight: normal;
     text-align: left;
     color: #000000;

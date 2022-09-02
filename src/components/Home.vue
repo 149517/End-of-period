@@ -3,14 +3,14 @@
   <div class="box">
     <!--    <router-view></router-view>-->
     <div class="banner" v-if="hdis">
-      <img class="banner" src="../assets/Home/春分 画框.png" alt="">
+      <img class="banner" src="../assets/Home/春分.png" alt="">
       <div class="option">
         <router-link class="op" @click="Displaychange" to="/tradition">传统文化</router-link>
         <router-link class="op" @click="Displaychange" to="/custom">节气划分</router-link>
         <router-link class="op" @click="Displaychange" to="/poetry">诗文歌赋</router-link>
         <router-link class="op" @click="Displaychange" to="/health">时令养生</router-link>
       </div>
-      <img src="../assets/Home/s-big.png" alt="立春" class="s-big">
+      <img src="../assets/Home/banner.jpg" alt="立春" class="s-big">
     </div>
   </div>
 
@@ -98,6 +98,7 @@ a {
     // background: #40403f;
     border-radius: 10px;
     margin-top: .4rem;
+
   }
 
 }

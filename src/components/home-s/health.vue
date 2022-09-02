@@ -16,7 +16,7 @@
         <swiper-slide class="h-sw"><img src="../../assets/subnav/淮山鸡汤.png"></swiper-slide>
         <swiper-slide class="h-sw"><img src="../../assets/subnav/薏米芡实山药粥.png"></swiper-slide>
         <swiper-slide class="h-sw"><img src="../../assets/subnav/镐定猪肚鸡.png"></swiper-slide>
-        <swiper-slide class="h-sw"><img src="../../assets/subnav/乌鸡炖盅%20.png"></swiper-slide>
+        <swiper-slide class="h-sw"><img src="../../assets/subnav/乌鸡炖盅.png"></swiper-slide>
 
       </swiper>
     </div>

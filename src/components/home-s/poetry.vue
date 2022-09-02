@@ -5,8 +5,8 @@
     <div class="box">
       <swiper class="mySwiper p-sp">
         <swiper-slide class="p-sw">君不见黄河之水天上来<br/> 奔流到海不复回</swiper-slide>
-        <swiper-slide class="p-sw"></swiper-slide>
-        <swiper-slide class="p-sw"></swiper-slide>
+        <swiper-slide class="p-sw">好雨知时节<br/>当春乃发生</swiper-slide>
+        <swiper-slide class="p-sw">落霞与孤鹜齐飞<br/>秋水共长天一色。</swiper-slide>
       </swiper>
     </div>
     <div class="btn">
@@ -59,7 +59,7 @@ export default {
 .p-sw {
   text-align: center;
   font-size: .24rem;
-  background: #edcf96;
+  background: #ef9259;
   border-radius: .2rem;
 
   writing-mode: vertical-rl;
@@ -87,7 +87,12 @@ export default {
   -webkit-align-items: center;
   align-items: center;
 }
-
+.p-sw:nth-child(2){
+  background: rgba(99, 217, 77, 0.85);
+}
+.p-sw:nth-child(3){
+  background: rgba(216, 220, 80, 0.85);
+}
 .p-sw img {
   display: block;
   width: 100%;

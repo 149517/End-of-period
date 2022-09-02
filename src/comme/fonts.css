@@ -21,7 +21,7 @@
 @font-face {
     font-family: SourceHanSansCN;
     font-weight: bold;
-    src: url("./fSOURCEHANSANSCN-REGULAR-2.OTF") format("opentype");
+    src: url("./fonts/SOURCEHANSANSCN-REGULAR-2.OTF") format("opentype");
 }
 @font-face {
     font-family: SOURCEHANSANSCN-VF-2;
@@ -32,4 +32,24 @@
     font-family: WenYue;
     font-weight: bold;
     src: url("./fonts/WENYUE-HOUXIANDAITI-W3-75-J-2.OTF") format("opentype");
+}
+@font-face {
+    font-family: STZhongsong;
+    font-weight: bold;
+    src: url("./fonts/STZhongsong.TTF") format("opentype");
+}
+@font-face {
+    font-family: DengXian;
+    font-weight: bold;
+    src: url("./fonts/FZZhongDengXian-Z07S.TTF") format("opentype");
+}
+@font-face {
+    font-family: STXinwei;
+    font-weight: bold;
+    src: url("./fonts/chinese.stxinwei.TTF") format("opentype");
+}
+@font-face {
+    font-family: Microsoft YaHei;
+    font-weight: bold;
+    src: url("./fonts/chinese.msyh.TTF") format("opentype");
 }
